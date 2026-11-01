@@ -1,2 +1,2 @@
-9.11
-https://github.com/ruloabarro2026/abarro/releases/download/v9.11/ABARRO.exe
+9.12
+https://github.com/ruloabarro2026/abarro/releases/download/v9.12/ABARRO.exe
