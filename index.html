@@ -4,43 +4,78 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ABARRO — Punto de venta para tienditas</title>
+<meta name="description" content="ABARRO es el programa de punto de venta para tienditas y tiendas de abarrotes: cobra rápido, lleva tu inventario, respalda en la nube y se actualiza solo. Pruébalo gratis 30 días.">
 <style>
-  body { font-family: Arial, Helvetica, sans-serif; margin: 0; color: #1a1a1a; background: #F2F7FB; }
-  .encabezado { background: #0B4F8A; color: #fff; padding: 40px 20px; text-align: center; }
-  .encabezado h1 { margin: 0; font-size: 42px; letter-spacing: 2px; }
-  .encabezado p { font-size: 18px; color: #BFE3F5; margin: 8px 0 0; }
-  .contenido { max-width: 760px; margin: 0 auto; padding: 28px 20px 40px; }
-  h2 { color: #0B4F8A; }
-  ul { line-height: 1.7; }
-  .pie { text-align: center; color: #666; font-size: 14px; padding: 20px; }
-  a { color: #0B4F8A; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; margin: 0; color: #22303E; background: #EEF1F4; }
+  .hero { background: #1E2A38; color: #fff; text-align: center; padding: 44px 20px 38px; }
+  .logo-panel { display: inline-block; background: #fff; border-radius: 18px; padding: 14px 22px; box-shadow: 0 8px 28px rgba(0,0,0,.35); }
+  .logo-panel img { display: block; width: 300px; max-width: 72vw; height: auto; }
+  .hero h1 { margin: 24px 0 6px; font-size: 30px; line-height: 1.25; }
+  .hero h1 .naranja { color: #FF8A50; }
+  .hero p { margin: 0 auto; max-width: 620px; font-size: 17px; color: #C9D6E2; line-height: 1.55; }
+  .btn-wa { display: inline-block; margin-top: 24px; background: #25D366; color: #06330F; font-weight: 700; font-size: 18px; text-decoration: none; padding: 14px 30px; border-radius: 999px; box-shadow: 0 6px 18px rgba(37,211,102,.4); }
+  .btn-wa:hover { background: #1FBE5B; }
+  .hero .tel { display: block; margin-top: 10px; color: #C9D6E2; font-size: 15px; }
+  .contenido { max-width: 1020px; margin: 0 auto; padding: 34px 18px 10px; }
+  h2.titulo { text-align: center; color: #1E2A38; font-size: 26px; margin: 10px 0 22px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card { background: #fff; border-radius: 14px; padding: 20px 18px; box-shadow: 0 3px 10px rgba(30,42,56,.08); border-top: 5px solid #2E86C1; }
+  .card .ico { font-size: 30px; }
+  .card h3 { margin: 8px 0 6px; font-size: 18px; color: #1E2A38; }
+  .card p { margin: 0; font-size: 15px; line-height: 1.55; color: #44566A; }
+  .banda { margin: 30px 0 6px; background: #FFF4EC; border: 1px solid #FFD9C2; border-left: 8px solid #E64A19; border-radius: 12px; padding: 18px 20px; }
+  .banda h3 { margin: 0 0 6px; color: #B23A12; font-size: 19px; }
+  .banda p { margin: 0; line-height: 1.6; font-size: 16px; }
+  .prueba { text-align: center; background: #1E2A38; color: #fff; border-radius: 14px; padding: 28px 20px; margin: 26px 0 8px; }
+  .prueba h3 { margin: 0 0 8px; font-size: 24px; }
+  .prueba p { margin: 0 auto 6px; max-width: 560px; color: #C9D6E2; line-height: 1.6; font-size: 16px; }
+  .pie { text-align: center; color: #6B7B8C; font-size: 14px; padding: 26px 16px 34px; line-height: 1.8; }
+  .pie a { color: #2E86C1; }
 </style>
 </head>
 <body>
-  <div class="encabezado">
-    <h1>ABARRO</h1>
-    <p>Punto de venta para tienditas</p>
+  <div class="hero">
+    <div class="logo-panel"><img src="logo-completo-abarro.png" alt="ABARRO — Punto de venta para tienditas"></div>
+    <h1>El punto de venta hecho <span class="naranja">para tu tiendita</span></h1>
+    <p>Cobra rápido, lleva tu inventario sin complicaciones y duerme tranquilo:
+    tu tienda respaldada todos los días. Pensado para que cualquiera lo use, sin cursos ni enredos.</p>
+    <a class="btn-wa" href="https://wa.me/529995377991?text=Hola%2C%20me%20interesa%20ABARRO%20para%20mi%20tienda">💬 Quiero información por WhatsApp</a>
+    <span class="tel">WhatsApp: 999 537 7991</span>
   </div>
+
   <div class="contenido">
-    <h2>¿Qué es ABARRO?</h2>
-    <p>ABARRO es un programa de punto de venta para Windows, pensado para tiendas de
-    abarrotes y tienditas. Funciona en la computadora de tu tienda, sin necesidad de
-    internet para cobrar.</p>
-    <h2>Lo que hace por tu tienda</h2>
-    <ul>
-      <li>Cobra en efectivo y con tarjeta (en tu terminal) y abre el cajón de dinero.</li>
-      <li>Lleva tu inventario completo y lo descuenta solo con cada venta.</li>
-      <li>Registra proveedores y llegadas de mercancía que alimentan tu inventario.</li>
-      <li>Respaldos diarios y automáticos en tu propia cuenta de Google Drive,
-      protegidos con tu contraseña: tus ventas y tu inventario, siempre a salvo.</li>
-      <li>Corte del día, facturación CFDI con tu propia cuenta de timbrado y
-      actualizaciones automáticas del programa.</li>
-      <li>Soporte remoto: tu proveedor te ayuda en vivo cuando lo necesitas.</li>
-    </ul>
-    <h2>Contacto</h2>
-    <p>Escríbenos a <a href="mailto:ruloabarro2026@gmail.com">ruloabarro2026@gmail.com</a></p>
-    <p><a href="privacidad.html">Política de privacidad</a></p>
+    <h2 class="titulo">Lo que ABARRO hace por tu tienda</h2>
+    <div class="grid">
+      <div class="card"><div class="ico">💵</div><h3>Cobro visual</h3><p>Panel con las imágenes de los billetes y monedas: tocas con cuánto paga el cliente y el programa calcula el cambio solo.</p></div>
+      <div class="card"><div class="ico">🧾</div><h3>Ticket y cajón</h3><p>Imprime el ticket con el logo de tu negocio y abre el cajón de dinero automáticamente al cobrar en efectivo.</p></div>
+      <div class="card"><div class="ico">📦</div><h3>Inventario sin dolor</h3><p>Tu inventario se descuenta solo con cada venta. ¿Vienes de otro programa? Importa tus productos desde Excel o CSV, sin volver a escribirlos.</p></div>
+      <div class="card"><div class="ico">👥</div><h3>Tu equipo, con su PIN</h3><p>Hasta 5 usuarios; cada quien entra con su propia clave y queda registrado quién vendió.</p></div>
+      <div class="card"><div class="ico">☁️</div><h3>Respaldo diario en la nube</h3><p>Todos los días guarda una copia cifrada de tus ventas e inventario en tu propia cuenta de Google Drive. Si algo le pasa a la computadora, no pierdes tu tienda.</p></div>
+      <div class="card"><div class="ico">🔄</div><h3>Siempre al día</h3><p>Las mejoras llegan solas: el programa se actualiza automáticamente, sin reinstalar nada y sin perder tu información.</p></div>
+      <div class="card"><div class="ico">🛠️</div><h3>Soporte de verdad</h3><p>¿Algo falló? Pides ayuda desde el mismo programa y te atendemos por WhatsApp o con soporte remoto en vivo.</p></div>
+      <div class="card"><div class="ico">🧮</div><h3>Corte y facturación</h3><p>Corte del día en un clic y facturación CFDI 4.0 con tu propia cuenta de timbrado, cuando la necesitas.</p></div>
+    </div>
+
+    <div class="banda">
+      <h3>¿Y si se va el internet?</h3>
+      <p>Tu tienda <strong>sigue cobrando</strong>: las ventas del día a día no dependen de internet.
+      La conexión solo se usa para lo que sí la necesita: los respaldos en la nube, las actualizaciones
+      y el soporte remoto. Si se cae, vendes normal y todo lo demás se pone al corriente cuando vuelve.</p>
+    </div>
+
+    <div class="prueba">
+      <h3>🎁 Pruébalo gratis 30 días</h3>
+      <p>Instálalo en la computadora de tu tienda y úsalo un mes completo, sin pagar nada.
+      Si te convence, lo activas con tu licencia anual. Así de simple.</p>
+      <a class="btn-wa" href="https://wa.me/529995377991?text=Hola%2C%20quiero%20probar%20ABARRO%20gratis%20en%20mi%20tienda">💬 Pedir mi prueba gratis</a>
+    </div>
   </div>
-  <div class="pie">ABARRO — Punto de venta para tienditas</div>
+
+  <div class="pie">
+    ABARRO — Punto de venta para tienditas<br>
+    Soporte e informes: WhatsApp <a href="https://wa.me/529995377991">999 537 7991</a><br>
+    <a href="privacidad.html">Política de privacidad</a>
+  </div>
 </body>
 </html>
